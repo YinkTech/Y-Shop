@@ -1,0 +1,45 @@
+/* Preloader Container */
+.preloader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eeb49d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Preloader */
+.preloader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeb49d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #eeb49d;
+}
+
+/* Loading Animation (Example: Rotating Spinner) */
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Loading Text */
+.perk {
+  margin-top: 10px;
+  font-weight: bold;
+}

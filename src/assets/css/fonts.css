@@ -1,0 +1,19 @@
+@font-face {
+  font-family: qualio;
+  src: url(./../assets/fonts/Qualio\ bold.ttf);
+}
+
+@font-face {
+  font-family: qualio-black;
+  src: url(./../assets/fonts/Qualio\ black.ttf);
+}
+
+@font-face {
+  font-family: Reykjavik;
+  src: url(./../assets/fonts/SK\ Reykjavik\ Rounded\ Regular.ttf);
+}
+
+@font-face {
+  font-family: dalglish;
+  src: url(./../assets/fonts/dalglish-bold.ttf);
+}
