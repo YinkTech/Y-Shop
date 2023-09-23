@@ -16,7 +16,7 @@ const Sales = () => {
         >
           Sales
         </h2>
-        <h6 data-aos="fade-up" >
+        <h6 data-aos="fade-up">
           Compliment interested discretion estimating on stimulated apartments
           oh. Dear so <br /> sing when in find read of call. As distrusts
           behaviour abilities
