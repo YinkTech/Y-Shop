@@ -20,7 +20,7 @@ const Nav = () => {
         </div>
 
         <nav
-          className={` md:p-[0] w-full md:w-[inherit] md:ms-0 transition-all ${
+          className={` md:p-[0] md:w-[inherit] md:ms-0 transition-all ${
             isOpen ? ".navbar active h-full w-[94%]" : ".navbar"
           } absolute navbar bg-[#ff] md:relative flex flex-col md:flex-row nav-link z-10 top-[-20em] md:top-[0] sm:justify-center md:space-x-4`}
         >
