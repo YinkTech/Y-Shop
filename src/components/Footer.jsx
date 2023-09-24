@@ -95,18 +95,17 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="md:ms-6">
           <h4
-            className="pt-3"
+            className="pt-3 mb-5 md:mb-2 md:text-start"
             style={{
               fontWeight: "bolder",
               marginBottom: "10px",
-              margin: "auto",
             }}
           >
             Follow us
           </h4>
-          <ul>
+          <ul className="flex flex-col items-center md:items-start">
             <li className="flex gap-2 items-center">
               <IoLogoInstagram /> Instagram
             </li>

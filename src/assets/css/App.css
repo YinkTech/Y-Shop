@@ -49,7 +49,8 @@ ul {
 .navbar.active {
   border-radius: 0px 0px 20px 20px;
   text-align: center;
-  top: 2rem;
+  top: 0.5rem;
+  position: fixed;
   background: #f9e4dc;
   z-index: 10;
   transition: 0.7s all ease-in-out;
@@ -62,7 +63,7 @@ ul {
 }
 
 .sales-img {
-  background: url(./../assets/img/thirstpercent.png);
+  background: url(./../img/thirstpercent.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

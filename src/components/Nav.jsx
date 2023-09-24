@@ -20,23 +20,32 @@ const Nav = () => {
         </div>
 
         <nav
-          className={` p-3 md:p-[0] w-44 md:w-[inherit] ms-16 md:ms-0 transition-all ${
-            isOpen ? ".navbar active" : ".navbar"
+          className={` md:p-[0] w-full md:w-[inherit] md:ms-0 transition-all ${
+            isOpen ? ".navbar active h-full w-[94%]" : ".navbar"
           } absolute navbar bg-[#ff] md:relative flex flex-col md:flex-row nav-link z-10 top-[-20em] md:top-[0] sm:justify-center md:space-x-4`}
         >
-          {[
-            ["HOME", "/"],
-            ["About us", "/team"],
-            ["shopping", "/projects"],
-            ["Contact", "/reports"],
-          ].map(([title, url]) => (
-            <Link
-              to={`${url}`}
-              className="transition-all font-medium text-[#070707] hover:border-[#eeb49d] border-transparent border-solid border-b-4"
+          <div className="flex  h-full flex-col justify-between">
+            <div className="flex-2 flex items-center justify-end text-end md:hidden" onClick={menuClick}>
+              <Hamburger toggled={isOpen} toggle={setOpen} />
+            </div>
+            <div
+            className="flex-1 gap-5 flex md:inline flex-col"
             >
-              {title}
-            </Link>
-          ))}
+              {[
+                ["HOME", "/"],
+                ["About us", "/team"],
+                ["shopping", "/projects"],
+                ["Contact", "/reports"],
+              ].map(([title, url]) => (
+                <Link
+                  to={`${url}`}
+                  className="transition-all mx-3 font-medium text-[#070707] hover:border-[#eeb49d] border-transparent border-solid border-b-4"
+                >
+                  {title}
+                </Link>
+              ))}
+            </div>
+          </div>
         </nav>
       </div>
       <div>

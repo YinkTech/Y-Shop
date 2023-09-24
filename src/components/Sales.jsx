@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import salesImg from './../assets/img/thirstpercent.png';
 
 const Sales = () => {
   useEffect(() => {
