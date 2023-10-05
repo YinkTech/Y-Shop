@@ -17,3 +17,8 @@
   font-family: dalglish;
   src: url(./../assets/fonts/dalglish-bold.ttf);
 }
+
+@font-face {
+  font-family: PTSerif;
+  src: url(./../fonts/PTSerif-Bold.ttf);
+}

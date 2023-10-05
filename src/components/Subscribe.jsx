@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div style={{ background: "#fbf8f7" }} className="text-center p-16">
+    <div style={{ background: "#fbf8f7" }} className="text-center p-16 my-6 mb-36">
       <div>
         <h2
           style={{ fontFamily: "mono", fontWeight: "light", fontSize: "30px" }}

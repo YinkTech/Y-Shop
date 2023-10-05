@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import salesImg from './../assets/img/thirstpercent.png';
 
 const Sales = () => {
   useEffect(() => {
@@ -24,18 +23,28 @@ const Sales = () => {
         </h6>
         <div
           data-aos="fade-up"
-          className="mt-6 text-center h-[200px] md:h-[400px] sales-img"
-          style={{ height: "" }}
+          className="mt-6 text-center h-[350px] md:h-[400px] sales-img"
+         
         >
-          <h1
-            className=" text-[70px]  py-[40px] md:pt-[150px] text-bold text-white"
-            style={{
-              fontWeight: "bolder",
-              fontFamily: "monospace",
-            }}
-          >
-            30% Off
-          </h1>
+          <div className="bg-[#ebb29b7d] flex flex-col justify-center items-center w-full h-full">
+            <h1 className=" text-[80px] text-white p-0 m-0"
+              style={{
+                marginBottom: '-80px',
+                fontFamily: "PTSerif",
+              }}
+            >
+              UP TO
+            </h1>
+            <h1 className=" text-[70px]"
+              style={{
+                fontWeight: 'bolder',
+                fontFamily: "PTSerif",
+              }}
+            >
+              30%off
+            </h1>
+            <button className="bg-[#ebb29b] px-14 font-semibold text-[#fff] py-3" style={{borderRadius: '30px', border: '1px solid #fff'}}>See all</button>
+          </div>
         </div>
       </div>
     </div>

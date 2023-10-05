@@ -4,6 +4,7 @@ import greg from "../assets/img/customer/greg.jpeg";
 import trevor from "../assets/img/customer/trevor.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { BsStar, BsStarFill } from "react-icons/bs";
 
 export const Customers = () => {
   useEffect(() => {
@@ -51,12 +52,12 @@ export const Customers = () => {
               <h4 className="my-3" style={{ fontWeight: "bolder" }}>
                 James Pattinson
               </h4>
-              <div>
-                <span class="fa fa-star  checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+              <div className="flex justify-center gap-1">
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStar className="text-[#eeb49d]" />
               </div>
             </div>
             <div>
@@ -94,12 +95,12 @@ export const Customers = () => {
               <h4 className="my-3" style={{ fontWeight: "bolder" }}>
                 Greg Stuart
               </h4>
-              <div>
-                <span class="fa fa-star  checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+              <div className="flex justify-center gap-1">
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStar className="text-[#eeb49d]" />
               </div>
             </div>
             <div>
@@ -137,12 +138,12 @@ export const Customers = () => {
               <h4 className="my-3" style={{ fontWeight: "bolder" }}>
                 Trevor Mitchell
               </h4>
-              <div>
-                <span class="fa fa-star  checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+              <div className="flex justify-center gap-1">
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStarFill className="text-[#eeb49d]" />
+                <BsStar className="text-[#eeb49d]" />
               </div>
             </div>
             <div>

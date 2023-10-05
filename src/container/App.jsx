@@ -23,8 +23,8 @@ function App() {
       <Trending />
       <BestCollection />
       <Sales />
-      <Subscribe />
       <Customers />
+      <Subscribe />
       <Footer />
     </div>
   );
