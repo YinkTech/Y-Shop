@@ -14,6 +14,7 @@ const Items = () => {
       item;
     return (
       <div
+      data-aos-easing="linear"
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
         className="group relative bg-white transition-all shadow hover:shadow-2xl rounded-2xl"

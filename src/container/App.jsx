@@ -1,12 +1,12 @@
-import Header from "../components/Header";
-import Trending from "./Trending";
-import BestCollection from "./BestCollection";
-import Sales from "../components/Sales";
+import Header from "../libs/Header";
+import Trending from "../components/Trending";
+import BestCollection from "../components/BestCollection";
+import Sales from "../libs/Sales";
 import React, { useState, useEffect } from "react";
-import Preloader from "../components/Preloader";
-import { Customers } from "../components/Customers";
-import Subscribe from "../components/Subscribe";
-import { Footer } from "../components/Footer";
+import Preloader from "../libs/Preloader";
+import { Customers } from "../libs/Customers";
+import Subscribe from "../libs/Subscribe";
+import { Footer } from "../libs/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);

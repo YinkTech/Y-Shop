@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { CatData } from "./Data";
+import { CatData } from "../components/Data";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import AOS from "aos";
@@ -24,12 +24,9 @@ const Category = () => {
     },
   };
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div
+      data-aos-easing="linear"
       data-aos="fade-up"
       data-aos-anchor-placement="top-center"
     >

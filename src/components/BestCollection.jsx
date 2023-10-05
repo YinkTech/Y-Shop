@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { setItem } from "../redux/actions/action";
-import Items from "../components/Items";
+import Items from "../libs/Items";
 
 const BestCollection = () => {
   const dispatch = useDispatch();

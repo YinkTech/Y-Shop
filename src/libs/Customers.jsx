@@ -12,20 +12,19 @@ export const Customers = () => {
   }, []);
 
   return (
-    <div className="my-5 mb-5">
+    <div data-aos-easing="linear" data-aos="fade-up" className="my-5 mb-5">
       <div className="mx-auto text-center max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl text-center font-bold tracking-tight text-[#333]">
           What our customer say about us
         </h2>
 
-        <p data-aos="fade-up">
+        <p>
           Up maids an ample stood given. Certainly say suffering his him
           collected intention promotion. hill sold ham men made lose case too.{" "}
         </p>
 
         <div className="text-center mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           <div
-            data-aos="fade-up"
             className="flex-inline p-4"
             style={{
               margin: "auto",
@@ -68,7 +67,6 @@ export const Customers = () => {
             </div>
           </div>{" "}
           <div
-            data-aos="fade-up"
             className="flex-inline p-4"
             style={{
               margin: "auto",
@@ -111,7 +109,6 @@ export const Customers = () => {
             </div>
           </div>{" "}
           <div
-            data-aos="fade-up"
             className="flex-inline p-4"
             style={{
               margin: "auto",

@@ -7,7 +7,12 @@ const Header = () => {
     <div className=" sm:px-16 p-3 header-full ">
       <Nav />
 
-      <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center"
+      >
         <div className="w-full text-3xl md:text-6xl header-lead">
           <h4 className=" font-bold text-[#333333]">
             Choose the look that suits{" "}

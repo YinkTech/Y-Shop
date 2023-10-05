@@ -33,7 +33,7 @@ const Nav = () => {
             >
               {[
                 ["HOME", "/"],
-                ["About us", "/team"],
+                ["About us", "/AboutUs"],
                 ["shopping", "/projects"],
                 ["Contact", "/reports"],
               ].map(([title, url]) => (
