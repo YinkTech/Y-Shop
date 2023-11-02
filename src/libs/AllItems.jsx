@@ -21,7 +21,7 @@ const AllItems = () => {
   }, []);
   return (
     <div className='container mx-auto py-4'>
-          <div className=" md:p-2 mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+          <div className=" md:p-2 mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-12">
             <Items />
           </div>
     </div>

@@ -21,7 +21,7 @@ const Shopping = () => {
           <Link to="/">Home</Link> <BsChevronRight className="p-1" />{" "}
           <Link to="/Shopping"> Shop </Link>
         </div>
-      <div data-aos-easing="linear" data-aos="zoom">
+      <div data-aos-easing="linear" className="px-3 " data-aos="zoom">
         <AllItems />
       </div>
       <Footer />
