@@ -16,6 +16,12 @@ input::placeholder {
   font-size: 24px;
 }
 
+.contact::placeholder {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  color: #948a8a;
+}
+
 input:focus {
   outline: none;
 }
@@ -109,4 +115,46 @@ ul {
 .subBtn:hover {
   background: #eeb39c;
   color: #fff;
+}
+
+.contact-img {
+  background-image: url(./../img/stocks.webp);
+  height: 400px;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.star-rating {
+  font-size: 24px;
+}
+
+.star {
+  color: #ffc500;
+  margin: 0 2px;
+}
+
+.full-star {
+  color: #ffc500;
+}
+
+.half-star {
+  color: #ffc500;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.half-star::before {
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: transparent;
+}
+
+.empty-star {
+  color: #c7c7cd;
+}
+.star-rating {
+  display: flex;
 }

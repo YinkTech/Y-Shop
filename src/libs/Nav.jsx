@@ -15,7 +15,7 @@ const Nav = () => {
         <div className="">
           <Link to="/">
             {" "}
-            <img src={logo} className="w-14" alt="bg-logo" />
+            <img src={logo} className="md:w-[150px] w-[80px]" alt="bg-logo" />
           </Link>
         </div>
 
@@ -34,11 +34,12 @@ const Nav = () => {
               {[
                 ["HOME", "/"],
                 ["About us", "/AboutUs"],
-                ["shopping", "/projects"],
-                ["Contact", "/reports"],
+                ["shopping", "/Shopping"],
+                ["Contact", "/ContactUS"],
               ].map(([title, url]) => (
                 <Link
                   to={`${url}`}
+                  key={title}
                   className="transition-all mx-3 font-medium text-[#070707] hover:border-[#eeb49d] border-transparent border-solid border-b-4"
                 >
                   {title}

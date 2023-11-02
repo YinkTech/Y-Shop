@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Items = () => {
   useEffect(() => {
@@ -14,11 +15,11 @@ const Items = () => {
       item;
     return (
       <div
-      data-aos-easing="linear"
+        data-aos-easing="linear"
         data-aos="fade-up"
-        data-aos-anchor-placement="top-center"
         className="group relative bg-white transition-all shadow hover:shadow-2xl rounded-2xl"
         key={id}
+        style={{transition: '0.3s all ease-in-out'}}
       >
         <div
           className="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 lg:aspect-none group-hover:opacity-75 h-52"
@@ -32,14 +33,14 @@ const Items = () => {
         <div className=" p-3 flex justify-between">
           <div>
             <h3 className="text-sm text-gray-700">
-              <a href="https://google.com">
+            <Link to={`/details/${id}`}>
                 <span aria-hidden="true" className="absolute inset-0"></span>
                 <b className="text-xl">{title}</b>
                 <b className="block text-sm">
                   {" "}
                   {brand}, {category}
                 </b>
-              </a>
+              </Link>
             </h3>
             <p className="mt-1 text-sm text-gray-500">{description}</p>
             <div className="flex justify-between">

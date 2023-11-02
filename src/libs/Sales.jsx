@@ -9,7 +9,7 @@ const Sales = () => {
 
   return (
     <div className="my-3 mb-5">
-      <div className="mx-auto max-w-2xl text-center px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto md:max-w-2xl text-center px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2
           data-aos="fade-up"
           className="text-2xl font-bold text-center tracking-tight text-[#333]"

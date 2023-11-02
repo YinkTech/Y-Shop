@@ -6,11 +6,12 @@ import { Footer } from "../libs/Footer";
 const AboutUs = () => {
   return (
     <div>
-      <div className="container pt-3 mx-auto">
+      <div className=" sm:px-14 p-2 mx-auto">
         <Nav />
       </div>
-        <About />
-      <Footer />
+      <div className=" overflow-x-hidden">
+      <About />
+      <Footer /></div>
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
 import laptop from "./../assets/img//beam-remote.gif";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className=" sm:px-16 p-3 header-full ">
+    <div className=" sm:px-14 p-2 header-full ">
       <Nav />
 
       <div
@@ -27,9 +28,10 @@ const Header = () => {
             harmoniously to create a shopping experience like no other.
           </p>
           <div className="flex my-4 gap-6">
-            <button className="p-2 px-8 md:p-3 md:px-12 rounded-full bg-[#dabaad] text-white header-button text-sm md:text-2xl">
+            
+            <Link to="/Shopping"><button className="p-2 px-8 md:p-3 md:px-12 rounded-full bg-[#dabaad] text-white header-button text-sm md:text-2xl">
               Shop now
-            </button>
+            </button></Link>
             <button className="p-2  px-3 md:p-3 md:px-4 rounded-full bg-[#dabaad] text-white header-button md:text-4xl">
               <i className="bi bi-play-fill"></i>
             </button>
