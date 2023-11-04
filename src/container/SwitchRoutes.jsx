@@ -20,7 +20,7 @@ const SwitchRoutes = () => {
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUS" element={<ContactUs />} />
         <Route path="/Shopping" element={<Shopping />} />
-        <Route path="/details/:id" element={<Details />} />
+        <Route path="/Details/:id" element={<Details />} />
         <Route>404 not Found! </Route>
       </Routes>
     </>
