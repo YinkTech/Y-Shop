@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { ContactUs } from "../components/ContactUs";
 import Shopping from "../components/Shopping";
 import { Details } from "../libs/Details";
+import NotFound from "../components/NotFound";
 
 const SwitchRoutes = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const SwitchRoutes = () => {
         <Route path="/ContactUS" element={<ContactUs />} />
         <Route path="/Shopping" element={<Shopping />} />
         <Route path="/Details/:id" element={<Details />} />
-        <Route>404 not Found! </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

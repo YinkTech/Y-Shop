@@ -22,7 +22,7 @@ const Nav = () => {
         <nav
           className={` md:p-[0] md:w-[inherit] md:ms-0 transition-all ${
             isOpen ? ".navbar active h-full w-[94%]" : ".navbar"
-          } absolute navbar bg-[#ff] md:relative flex flex-col md:flex-row nav-link z-10 top-[-20em] md:top-[0] sm:justify-center md:space-x-4`}
+          } absolute navbar bg-[#ff] md:relative flex flex-col md:flex-row nav-link z-10 top-[-100vh] md:top-[0] sm:justify-center md:space-x-4`}
         >
           <div className="flex  h-full flex-col justify-between">
             <div className="flex-2 flex items-center justify-end text-end md:hidden" onClick={menuClick}>

@@ -85,14 +85,11 @@ export const Details = () => {
           <div className="md:container mx-auto">
             <div className="flex flex-col md:flex-row gap-20 items-start justify-center">
               <div className="md:flex-1 w-full">
-                <div className="h-[250px] md:h-[350px] w-full mx-auto">
-                  <img
-                    src={item.thumbnail}
-                    className="w-full h-full"
-                    alt={item.thumbnail}
-                  />
+                <div className="h-[270px] md:h-[370px] w-full mx-auto" style={{background: `url(${item.thumbnail})`, backgroundPosition: 'center', backgroundSize: 'contain'}}>
+                  
                 </div>
-                <div className="h-[150px] my-2 flex gap-5 overflow-auto">
+                <div className="box-full">
+                <div className="h-[150px] my-2 image-box-full">
                   {imageIndex !== null && item && item.images && (
                     <img loading="lazy" src={item.images[imageIndex]} alt="" />
                   )}
@@ -108,7 +105,7 @@ export const Details = () => {
                   {imageIndex4 !== null && item && item.images && (
                     <img loading="lazy" src={item.images[imageIndex4]} alt="" />
                   )}
-                </div>
+                </div></div>
               </div>
               <div className="md:flex-1 w-full">
                 <div className="flex flex-col gap-5 p-4 md:p-4">

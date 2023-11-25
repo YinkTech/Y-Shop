@@ -15,16 +15,16 @@ export const Footer = () => {
   return (
     <div
       className="py-5 p-4"
-      style={{ marginTop: "10px", background: "#eeb49d", color: "#3b3837" }}
+      style={{ background: "#eeb49d", color: "#3b3837" }}
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row  gap-10">
           <div className="lg:w-1/4 text-center lg:text-start">
-            <div className="">
+            <div className="flex flex-col justify-center items-center">
               <img
                 src={logo}
                 alt="logo"
-                className="mx-auto md:w-[130px] w-[150px] lg:mx-px"
+                className="mx-auto text-center md:w-[130px] w-[150px] lg:mx-px"
               />
               <h4
                 className="pt-3"
@@ -32,11 +32,7 @@ export const Footer = () => {
               >
                 Y Shop
               </h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Gravida mattis semper
-                vitae urna sem urna mauris.
-              </p>
-            </div>{" "}
+            </div>
           </div>
           <div className="flex w-full flex-col lg:flex-row justify-around whitespace-nowrap md:font-semibold">
             <div className="flex justify-between md:justify-around flex-row lg:gap-20">

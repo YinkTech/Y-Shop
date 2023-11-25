@@ -2,26 +2,30 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Items = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-
+  const navigate = useNavigate();
+  const handleClick = (id) => {
+    navigate(`/Details/${id}`);
+    window.scrollTo(0, 0);
+  };
   const lists = useSelector((state) => state.itemReducer.items);
   const rederList = lists.map((item) => {
     const { id, title, description, price, rating, brand, category, images } =
       item;
     return (
       <div
+      onClick={() => handleClick(id)}
         data-aos-easing="linear"
         data-aos="fade-up"
-        className="group relative bg-white transition-all shadow hover:shadow-2xl rounded-2xl"
+        className="cursor-pointer group relative bg-white transition-all shadow hover:shadow-2xl rounded-2xl"
         key={id}
         style={{ transition: "0.3s all ease-in-out" }}
       >
-        <Link to={`/Details/${id}`}>
           <div
             className="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 lg:aspect-none group-hover:opacity-75 h-52"
             style={{
@@ -63,7 +67,6 @@ const Items = () => {
               </div>
             </div>
           </div>
-        </Link>
       </div>
     );
   });

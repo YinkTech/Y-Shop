@@ -51,14 +51,16 @@ ul {
 .header-button {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 .navbar.active {
-  border-radius: 0px 0px 20px 20px;
-  text-align: center;
-  top: 0.5rem;
   position: fixed;
   background: #f9e4dc;
   z-index: 10;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  backdrop-filter: blur(30px);
+  text-align: center;
+  top: 0vh;
   transition: 0.7s all ease-in-out;
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
     0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -157,4 +159,35 @@ ul {
 }
 .star-rating {
   display: flex;
+}
+
+.box-full{
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+
+.image-box-full {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  
+}
+
+.box-full::before, .box-full::after {
+content: "";
+position: absolute;
+top: 0;
+height: 100%;
+width: 20px;
+}
+.box-full::before {
+  left: 0;
+  background: linear-gradient(90deg, white,transparent);
+}
+.box-full::after {
+  right: 0;
+  background: linear-gradient(90deg, transparent, white);
 }

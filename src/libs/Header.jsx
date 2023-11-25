@@ -19,7 +19,7 @@ const Header = () => {
             Choose the look that suits{" "}
             <span className="text-[#9d7765]">you</span> best
           </h4>
-          <p className="text-sm my-4 font-medium header-text">
+          <p className="text-sm my-4 font-medium">
             Welcome to our virtual shopping paradise, where dreams become
             reality and desires are fulfilled with a single click. Step into a
             world where endless possibilities unfold before your eyes, where

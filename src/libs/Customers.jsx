@@ -61,8 +61,9 @@ export const Customers = () => {
             </div>
             <div>
               <p style={{ fontSize: "13px", marginTop: "20px" }}>
-                Varius mattis suspendisse nulla ut suscipit est scelerisque.
-                Sagittis neque augue ut Varius mattiS SuspendiSSe
+                The website has a clean and user-friendly interface that makes
+                navigation a breeze. The search function is highly efficient,
+                providing accurate results quickly.{" "}
               </p>
             </div>
           </div>{" "}
@@ -103,8 +104,9 @@ export const Customers = () => {
             </div>
             <div>
               <p style={{ fontSize: "13px", marginTop: "20px" }}>
-                Varius mattis suspendisse nulla ut suscipit est scelerisque.
-                Sagittis neque augue ut Varius mattiS SuspendiSSe
+                The customer service is top-notch. Queries and issues are
+                addressed promptly, and the representatives are always polite
+                and helpful.
               </p>
             </div>
           </div>{" "}
@@ -145,8 +147,9 @@ export const Customers = () => {
             </div>
             <div>
               <p style={{ fontSize: "13px", marginTop: "20px" }}>
-                Varius mattis suspendisse nulla ut suscipit est scelerisque.
-                Sagittis neque augue ut Varius mattiS SuspendiSSe
+                The delivery service is impressive. Products always arrive in
+                excellent condition and often ahead of the estimated delivery
+                date.
               </p>
             </div>
           </div>

@@ -12,7 +12,7 @@ const About = () => {
     >
       <div className=" container mx-auto flex flex-col gap-12 ">
         <div className="flex flex-col lg:flex-row justify-around items-center md:gap-40 w-full">
-          <div className=" lg:w-1/2 mx-auto">
+          <div className="md:p-2 lg:w-1/2 mx-auto">
             <h2 className="text-[#eeb49d] text-center text-[50px] mb-6 font-bold">
               About <span className="text-[#000]">us</span>
             </h2>

@@ -12,7 +12,7 @@ function App() {
     <div className="App overflow-x-hidden">
       <Header />
       <Trending />
-      <h2 className="text-2xl mt-10 font-bold text-center tracking-tight text-[#333]">
+      <h2 className=" mt-32 md:mt-0 text-2xl font-bold text-center tracking-tight text-[#333]">
         New Best Collection
       </h2>
       <BestCollection />
